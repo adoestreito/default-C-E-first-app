@@ -1,0 +1,12 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["andresdoestreito@gmail.com"]
+description = "mi primera app serverless"
+language = "javascript"
+manifest_version = 3
+name = "webinar-primera"
+service_id = ""
+
+[scripts]
+  build = "npm run build"
